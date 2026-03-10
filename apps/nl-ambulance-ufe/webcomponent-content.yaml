@@ -4,7 +4,10 @@ metadata:
   name: nl-ambulance-ufe-content
 spec:
   microFrontend: nl-ambulance-ufe
-  element: nl-ambulance-wl-list
+  element: nl-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /nl-ambulance-wl/  
   displayRules:
     - allOf:
       - context-name: main-content
