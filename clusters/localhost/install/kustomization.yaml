@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/nl-ambulance-ufe
+- ../../../apps/nl-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components: 
 - ../../../components/version-developers
+- https://github.com/GreenDev1/ambulance-webapi//deployments/kustomize/components/mongodb
