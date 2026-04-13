@@ -3,4 +3,7 @@ kind: Component
 images:
 - name: greendev15/ambulance-ufe
   newName: greendev15/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: greendev15/ambulance-wl-webapi
+  newName: greendev15/ambulance-wl-webapi
+  newTag: 1.1.0

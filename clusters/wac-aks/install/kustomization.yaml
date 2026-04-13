@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/nl-ambulance-ufe
+- ../../../apps/nl-ambulance-webapi
 
 
 components:
