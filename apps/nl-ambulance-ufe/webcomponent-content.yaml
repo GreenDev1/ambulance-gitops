@@ -9,7 +9,7 @@ spec:
     - name: base-path
       value: /nl-ambulance-wl/  
     - name: api-base
-      value: http://localhost:30081/api
+      value: /nl-api
     - name: ambulance-id
       value: bobulova
   displayRules:
