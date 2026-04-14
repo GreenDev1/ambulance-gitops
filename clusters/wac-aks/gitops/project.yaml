@@ -6,7 +6,6 @@ spec:
   title: Zoznam čakajúcich nl # napr. "Zoznam čakajúcich <pfx>"
   description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
   authors: "Ľubomír Novotný" # Zadajte mená autorov
-  azureLink: "https://<sub-domain>.azurewebsites.net"
   azureLink: "https://nl-ambulance-cab8ebfgc7fyfven.westeurope-01.azurewebsites.net"
   frontendRepoUrl: "https://github.com/GreenDev1/ambulance-ufe"
   backendRepoUrl: "https://github.com/GreenDev1/ambulance-webapi"
