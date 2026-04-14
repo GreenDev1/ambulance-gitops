@@ -11,13 +11,13 @@ resources:
 - prepare.kustomization.yaml
 - cd.kustomization.yaml
 - install.kustomization.yaml
+- secrets.kustomization.yaml
 - git-repository.yaml
 - ambulance-ufe.image-repository.yaml
 - ambulance-ufe.image-policy.yaml
 - ambulance-webapi.image-repository.yaml
 - ambulance-webapi.image-policy.yaml
 - image-update-automation.yaml
-- secrets.kustomization.yaml
 
 patches:
 - target:
