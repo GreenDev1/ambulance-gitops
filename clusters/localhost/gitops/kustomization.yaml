@@ -24,7 +24,7 @@ patches:
     group: kustomize.toolkit.fluxcd.io
     version: v1
     kind: Kustomization
-patch: |-
+  patch: |-
     - op: add
     path: /spec/decryption
     value:
